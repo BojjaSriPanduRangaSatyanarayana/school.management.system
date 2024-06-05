@@ -34,9 +34,9 @@ public class Main {
 
         Rahul.payFees(5000);
         chakri.payFees(6000);
-        System.out.println("GHS has earned $"+ Narayana.getTotalMoneyEarned());
+        System.out.println("Narayana has earned $"+ Narayana.getTotalMoneyEarned());
 
-        System.out.println("------Making SCHOOL PAY SALARY----");
+        System.out.println("----Making SCHOOL PAY SALARY----");
         satya.receiveSalary(satya.getSalary());
         System.out.println("Narayana has spent for salary to " + satya.getName()
         +" and now has $" + Narayana.getTotalMoneyEarned());
